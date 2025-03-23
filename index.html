@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0D0D2B;
+            color: #D8BFD8;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6A11CB, #2575FC);
+            color: white;
+            text-align: center;
+            padding: 3rem 0;
+            position: relative;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        nav {
+            background: #14142B;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #D8BFD8;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #FF7F50;
+        }
+
+        .section-content {
+            background: #1C1C3B;
+            padding: 2rem;
+            margin: 2rem auto;
+            width: 80%;
+            max-width: 900px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(255, 127, 80, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .section-content:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 20px rgba(255, 127, 80, 0.5);
+        }
+
+        h2 {
+            color: #D8BFD8;
+            text-align: center;
+            font-size: 2rem;
+            text-transform: uppercase;
+            border-bottom: 2px solid #FF7F50;
+            padding-bottom: 0.5rem;
+        }
+
+        .download-button {
+            display: block;
+            width: fit-content;
+            margin: 1rem auto;
+            background: linear-gradient(135deg, #6A11CB, #2575FC);
+            color: white;
+            padding: 0.7rem 2rem;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .download-button:hover {
+            background: linear-gradient(135deg, #FF7F50, #FDC830);
+            transform: scale(1.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background: #14142B;
+            color: #D8BFD8;
+            font-size: 1rem;
+            box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            .section-content {
+                width: 90%;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sri Harish E</h1>
+        <p>Full Stack Developer | BCA Student</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section-content">
+        <h2>About Me</h2>
+        <p>"I am a passionate Full Stack Developer with a strong foundation in front-end and back-end technologies. Skilled in building responsive, user-friendly web applications, I continuously strive to learn and implement modern development practices. Currently pursuing a BCA degree, I aim to contribute innovative solutions that enhance user experiences and drive business success."<br><br><strong>Name:</strong> Sri Harish E<br><strong>Email:</strong> harishsri175@gmail.com<br><strong>Mobile Number:</strong> 9361752014<br><strong>LinkedIn:</strong> <a href='#'>Sri Harish E LinkedIn</a><br><strong>DOB:</strong> 17/09/2005</p>
+    </section>
+
+    <section id="education" class="section-content">
+        <h2>Education</h2>
+        <p>Bharathiyar University - BCA<br><strong>School:</strong> Sri Bharathi Matric Higher Secondary School, Ganeshapuram, Coimbatore-641107</p>
+    </section>
+
+    <section id="skills" class="section-content">
+        <h2>Skills</h2>
+        <ul>
+            <li>C</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="section-content">
+        <h2>Projects</h2>
+        <p><a href="#">Portfolio</a></p>
+    </section>
+
+    <section id="resume" class="section-content">
+        <h2>Resume</h2>
+        <a href="https://drive.google.com/file/d/1-OVpS154PPWAnvOMk7uIxnOH7K_CCPCY/view?usp=sharing" class="download-button">Download My Resume</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sri Harish E</p>
+    </footer>
+</body>
+</html>
